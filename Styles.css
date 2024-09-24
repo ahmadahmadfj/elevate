@@ -1,0 +1,1192 @@
+/**********--/For All Content/--**********/
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+* {
+    font-family: 'Almarai', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.body-page,
+body {
+    max-width: 1400px; 
+    margin: 0 auto;    
+}
+
+/**********--/1/ /Header/--**********/
+
+/*Header Properties*/
+header {
+    background-color: #003D7D;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+
+/*Text Logo Proerties*/
+.logo-page,
+header .logo {
+    color: #F7A800;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -250px;
+}
+
+
+/*Image Logo Properties*/
+header img {
+    margin-left: -40px;
+    width: 55px;
+    height: 55px;
+}
+
+
+/*Nav Properties*/
+nav {
+    margin-right: -30px;
+}
+
+
+/*Main Links Proprties*/
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.1s ease;
+}
+
+
+/*Main Links - Hover*/
+header nav a:hover {
+    color: #F7A800;
+}
+
+
+/**********-- /2/ /Section/ /Main/ --**********/
+
+/*Main Box Properties*/
+.main-page-main {
+    margin-top: 30px;
+}
+
+
+/*Content Title Properties*/
+.main-section .content-title {
+    color: #003D7D;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*Content Title Span Properties*/
+.main-section .content-title span {
+    font-size: 70px;
+    color: #F7A800;
+}
+
+
+/*Qoute Properties*/
+.qoute {
+    color: #F7A800;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+/*Main Section Parent Links For Childs a*/
+.main-section .links {
+    margin-top: 60px;
+    margin-right: -50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+/*Main Section Links Properties*/
+.main-section a {
+    color: white;
+    background-color: #0065d1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 15px;
+    transition: 0.3s ease ;
+}
+
+
+/*Mian Section Links - Hover*/
+.main-section a:hover {
+    background-color: goldenrod;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+/**********--/Content Sections - Main Propertues/--**********/
+
+.We-Section-Page,
+.main-section,
+.we-section,
+.services-section,
+.works-section,
+.contact,
+.numbers-section,
+footer {
+    padding: 40px 150px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+
+.main-section,
+.we-section,
+.services-section,
+.contact,
+.numbers-section {
+    max-height: 1100px;
+}
+
+.main-section {
+    height: 95vh;
+    background-color: rgb(231, 223, 223); 
+}
+
+.we-section {
+    height: 110vh;
+    background-color: #002349;
+    border-left: 15px solid #F7A800;
+}
+
+.services-section {
+    height: 115vh;
+    background-color: rgb(231, 223, 223);
+}
+
+.works-section {
+    max-height: 320vh;
+    background-color: #002349;
+}
+
+.contact {
+    height: 130vh;
+    background-color: #002349;
+}
+
+.numbers-section {
+    height: 110vh;
+    background-color: rgb(39, 40, 51);
+}
+
+footer {
+    height: 300px;
+    background-color: #001429;
+    border-right: 6px solid #F7A800;
+}
+
+
+.we-section .box-title {
+    color: rgb(231, 231, 231);
+}
+
+.services-section  .box-title {
+    color: #0065d1;
+}
+
+.works-section .box-title {
+    color: rgb(231, 231, 231);
+}
+
+
+.box-title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/**********--/3/ /Section/ /We/ --**********/
+
+/* Content We Properties*/
+.We-Section-Page .content-we,
+.we-section .content-we {
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.8;
+    word-spacing: 2px;
+    position: absolute;
+    top: 160px;
+    right: 60px;
+}
+
+
+/*Company Title Properties*/
+.We-Section-Page .big-p,
+.we-section .big-p {
+    font-size: 50px;
+    color: #F7A800;
+    padding-bottom: 20px;
+}
+
+
+/*Company Image Properties*/
+.We-Section-Page img,
+.we-section img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 45px;
+    top: 125px;
+}
+
+
+/*We Link Properties (For More)*/
+.We-Section-Page a,
+.we-section a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    background-color: azure;
+    color: goldenrod;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 480px;
+    right: 60px;
+    transition: 0.3s ease;
+}
+
+
+/*We Link - Hover*/
+.We-Section-Page a:hover,
+.we-section a:hover {
+    color: white;
+    background-color: rgb(231, 166, 0);
+}
+
+
+/**********--/4/ /Section/ /Services/--**********/
+
+/*Services Content Properties*/
+.content-services {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+/*Services Content Images Properties*/
+.content-services img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    transition: 0.3s ease;
+}
+
+
+/*Services Content Images-Hover*/
+.content-services img:hover {
+    transform: scale(1.1);
+}
+
+
+/*Services Content Boxs*/
+.services-section .content-con {
+    width: 260px;
+    height: 510px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 15px;
+    box-shadow: -2px 2px 0px 3px black , 2px -2px 0px 3px #F7A800;
+    margin-top: 7px;
+    transition: 0.3s ease;
+}
+
+
+/*Boxes - Hover*/
+.services-section .content-con:hover {
+    box-shadow: -2px 2px 0px 3px #F7A800 , 2px -2px 0px 3px black;
+}
+
+
+/*Services Titles Properties*/
+.services-titles {
+    color: #F7A800;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+/*Services Titles Descriptions Properties*/
+.services-desc {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+
+/*Services Section Boxes Links*/
+.services-section .content-con a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #004c9e;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+
+/*Services Section Boxes Links - Hover*/
+.services-section .content-con a:hover {
+    background-color: #eca200;
+    color: black;
+    font-size: 19px;
+}
+
+
+/**********--/5/ /Section/ /Works/--**********/
+
+/*Works Section - Box Title*/
+.works-section .box-title {
+    margin-bottom: 70px;
+}
+
+
+/*Works Section Boxs Properties*/
+.works-section div {
+    position: relative;
+    left: 590px;
+    width: 550px;
+    margin-bottom: -100px;
+    direction: rtl;
+    padding: 10px;
+    word-spacing: 2px;
+}
+
+
+/*Works Titles*/
+.works-titles {
+    color: yellow;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+
+
+/*Works Titles Descriptions*/
+.works-desc {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+/*Works Section Content Logos*/
+.works-tit-img { 
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+/*Works Section Image Properties*/
+.works-section .image-one,
+.works-section .image-tow,
+.works-section .image-three{
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 15px 1px black;
+    position: relative;
+    left: -90px;
+    top: -170px;
+}
+
+
+/*Works Section a Properties*/
+.works-section a {
+    text-decoration: none;
+    color: #F7A800;
+    background-color: white;
+    width: 115px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 1650px;
+    left: 622px;
+}
+
+
+/*Works Section a - Hover*/
+.works-section a:hover {
+    background-color: rgb(231, 166, 0);
+    color: white;
+}
+
+
+/**********--/6/ /Section/ /Numbers/--**********/
+
+/*Numbers Section Box Tilte*/
+.box-title {
+    color: white;
+}
+
+
+/*Numbers Section Description Properties*/
+.numbers-desc {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Numbers Description Span Properties*/
+.numbers-desc span {
+    color: #F7A800;
+    font-size: 35px;
+}
+
+
+/*Parent Box Properties*/
+.content-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+
+/*Child Box Properties*/
+.content-num {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*Numbers Titles Properties*/
+.num-title-goal-one,
+.num-title-goal-tow,
+.num-title-goal-three {
+    color: #F7A800;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/*Numbers Properties*/
+.number {
+    width: 190px;
+    height: 190px;
+    color: #F7A800;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 0px 0px #F7A800 , 25px 25px 1px 1px black;
+    border-radius: 20px 50px;
+    font-size: 60px;
+    margin-bottom: 35px;
+    align-content: center;
+    transition: 0.3s ease;
+}
+
+
+/*Numbers Titles Positions*/
+.num-title-goal-one {
+    margin-right: -50px;
+}
+
+.num-title-goal-tow {
+    margin-left: -50px;
+}
+
+.num-title-goal-three {
+    margin-left: -30px;
+}
+
+
+/**********--/7/ /Section/ /Contact/--**********/
+
+/*Concat Section Texts Properties*/
+.contact .tit,
+.contact .tit-desc {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+} 
+
+
+/*Concat Section Title Description Properties*/
+.contact .tit-desc {
+    color: #F7A800;
+    font-size: 25px;
+    word-spacing: 5px;
+    margin-bottom: 60px;
+}
+
+
+/*Contact Section Texts Properties*/
+.texts {
+    position: relative;
+    text-align: right;
+    left: 600px;
+    width: 550px;
+    margin-bottom: -100px;
+    padding: 10px;
+    word-spacing: 2px;
+}
+
+
+/*Title Properties*/
+.texts .tit {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: right;
+
+}
+
+
+/*Description Properties*/
+.texts .desc {
+    color: white;
+   line-height: 1.5;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+
+/*Point Properties*/
+.texts .desc span {
+    color: #F7A800;
+    font-size: 35px;
+    margin-right: 3px;
+}
+
+
+/*Form Inputs Properties*/
+.form-inputs {
+    background-color: rgb(240, 240, 240);
+    width: 350px;
+    min-height: 460px;
+    position: relative;
+    top: -240px;
+    left: -75px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px black;
+    padding: 10px;
+}
+
+
+/*Form Labels Properties*/
+.form-inputs label {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(0, 43, 185);
+}
+
+
+/*Inputs Positions*/
+.form-inputs .one {
+    left: 270px;
+}
+
+.form-inputs .tow {
+    left: 228px;
+}
+
+.form-inputs .three {
+    left: 133px;
+}
+
+
+/*Input Properties*/
+.form-inputs input,
+textarea {
+    background-color: white;
+    color: #F7A800;
+    caret-color: rgb(0, 43, 185);
+    text-align: right;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    position: relative;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(170, 170, 170);
+    font-weight: bold;
+    transition: ease;
+}
+
+
+/*Inputs focus-within*/
+.form-inputs input:focus-within,
+textarea:focus-within {
+    border: 2px solid rgb(0, 43, 185);
+}
+
+
+/*Form Dimensions*/
+.form-inputs input {
+    width: 325px;
+    height: 40px;
+}
+
+
+/*Textarea Dimensions*/
+textarea {
+    width: 330px;
+    height: 200px;
+    resize: vertical;
+}
+
+
+/*Submint Input Properties*/
+.form-inputs .submit {
+    margin-bottom: 0px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 43, 185);
+    border: none;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+
+/**Submint Input-Hover*/
+.form-inputs .submit:hover {
+    background-color: #F7A800;
+    color: black;
+}
+
+
+/**********-/Footer/-**********/
+
+/*Footer Properties*/
+footer .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+
+/*Footer Elements Width*/
+footer .container .coon-coon,
+footer .container .coon {
+    width: calc(90% / 3);
+}  
+
+
+/**Main Links Properties**/
+footer .main-links {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer .main-links a {
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.1s ease;
+    padding: 8px;
+} 
+
+
+/*Main Links - Hover*/
+footer .main-links a:hover {
+    color: #F7A800;
+} 
+
+
+/**Social Media Links Properties**/
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 160px;
+}
+
+footer .social-media img{
+    height: 30px;
+    margin-top: 5px;
+    margin-left: -70px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+/*Social Media Links - Hover*/
+footer .social-media img:hover {
+    box-shadow: 0px 0px 7px 0px black;
+    transform: scale(1.5);
+} 
+
+
+footer .container .coon-coon {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Footer Logo Properties*/
+footer .image-logo { 
+    width: 200px;
+    height: 200px;
+    margin-right: -150px;
+} 
+
+
+/*Footer Inputs Properties*/
+footer .coon input {
+    margin-top: 50px;
+    margin-left: -63px;
+    width: 336px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(226, 226, 226);
+    color: #F7A800;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*Submit Properties*/
+footer .coon .submit {
+    margin-top: 10px;
+    margin-left: 212px;
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(0, 43, 185);
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+footer .coon .submit:hover {
+    background-color: #F7A800;
+}
+
+footer .coon input:focus-within {
+    border: 2px solid rgb(0, 43, 185);
+}
+
+
+/**********-/Header-Pages/-**********/
+
+/*Header Pages*/
+ .header-page {
+    background-color: #003D7D;
+    margin-bottom: 35px;
+}
+
+
+/*تنسيقات الخط أسفل الهيدر*/
+.idea {
+    width: 100%;
+    height: 7px;
+    position: relative;
+    top: -35px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,#F7A800 ,white );
+}
+
+
+/*Header Pages Logo Properties*/
+.header-page .logo-page {
+    margin-left: 200px;
+} 
+
+
+/*Header Pages Title*/
+.header-page .page-a-tite {
+    position: relative;
+    right: 250px;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+.page-a-tite-we {
+    pointer-events: none;
+    position: relative;
+    right: 290px;
+    color: white;
+}
+
+
+/*Style Properties*/
+.header-page .p-persons,
+.header-page .p-we,
+.header-page .p-works {
+    position: relative;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-page .p-persons {
+    left: -100px;
+}
+
+.header-page .p-we {
+    left: -125px;
+}
+
+.header-page .p-works {
+    left: -100px;
+} 
+
+
+/*Pages Body Background*/
+.body-page {
+    background-color: #002349;
+}
+
+
+/**********-/Persons-Page/-**********/
+
+/*Persons Section Properties*/
+.persons-section {
+    width: 100%;
+    height: 1800px;
+    background-color: #002349;
+}
+
+
+/*Persons Section Title Properties*/
+.persons-section .tit-tit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*Title Text Properties*/
+.tit-tit .p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+
+/*Parent Boxes Properties*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+
+/*Boxes Size*/
+.parent .box {
+    padding: 5px;
+    width: calc(75% / 4);
+    text-align: center;
+    background-color: transparent;
+    box-shadow:  -3px -3px 10px 0px black;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    border-top: 10px solid #F7A800;
+}
+
+
+/*Boxes Properties*/
+.parent .box img {
+    padding: 5px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #F7A800;
+    margin-top: 10px;
+}
+
+
+/*Persons Names Properties*/
+.parent .box .name {
+    color: #eca200;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+
+/*Persons Texts Properties*/
+.parent .box .text-per {
+    color: rgb(74, 0, 88);
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2;
+    word-break: 1.5px;
+    margin-bottom: 5px;
+}
+
+
+/*فصل بين القوالب طولياً*/
+.problems {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+}
+
+
+/*Persons Section a Properties*/
+.persons-section a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F7A800;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    left: 605px;
+    top: 100px;
+    transition: 0.3s ease;
+}
+
+
+/*Persons Section a - Hover*/
+.persons-section a:hover {
+    color: white;
+    background-color: #F7A800;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.733);
+}
+
+
+/**********-/We Page/-**********/
+
+.We-Section-Page {
+    width: 100%;
+    height: 1300px;
+}
+
+.We-Section-Page .img-img-img{
+    position:absolute; 
+    top: 530px; 
+    left: 120px;
+    width: 1100px;
+    height: 550px;
+    box-shadow: 0px 0px 15px 0px black;
+    border-radius: 5px;
+}
+
+
+/**/
+.We-Section-Page .we-we-we{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    direction: rtl;
+    position:absolute; 
+    top: 950px; 
+    left: 510px;
+}
+
+
+/* We Page Link Properties*/
+.We-Section-Page .aaa {
+    display: inline-block;
+    text-decoration: none;
+    width: 110px;
+    height: 60px;
+    color: white;
+    background-color: rgb(231, 166, 0);
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.2s ease;
+    position: absolute;
+    top: 1050px;
+    left: 620px;
+}
+    
+    
+/*We Page Link - Hover*/
+.We-Section-Page  .aaa:hover {
+    color: rgb(231, 166, 0);
+    background-color: white;
+}
+    
+
+/*We Page Image Background*/
+.We-Section-Page .backg {
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    top: 920px;
+    left: 170px;
+    background-color: #002349;
+}   
+
+
+/**********-/Now Works - Page/-**********/
+
+/*Now Section Properties*/
+.nowtworks-section {
+    height: 2400px;
+    background-color: #002349;
+}
+
+
+/*Now Section Title Properties*/
+.nowtworks-section .title {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/*Boxes Child Properties*/
+.box-now {
+    margin-top: 100px;
+    background-color: rgb(240, 229, 229);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 5px solid #F7A800;
+    border-bottom: 5px solid #F7A800;
+}
+
+
+/*Now Works Image*/
+.box-now img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+
+/*Boxes Titles Properties*/
+.box-now .tit-now {
+    font-size: 30px;
+    color: #F7A800;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+
+/*Boxes Texts Properties*/
+.box-now .desc-now {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5;
+    word-spacing: 3px;
+    direction: rtl;
+}
+
+
+/*Boxes Link a Properties*/
+.box-now a {
+    display: inline-block;
+    text-decoration: none;
+    width: 90px;
+    height: 45px;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: 0.2s ease;
+}
+
+.box-now .one-a-a {
+    color: white;
+    background-color: #F7A800;
+    position: relative;
+    left: -15px;
+}
+   
+.box-now .tow-a-a {
+    color: white;
+    background-color: #9700d3;
+    position: relative;
+    right: -15px;
+}
+
+
+/*Boxes Links a - Hover*/
+.box-now .one-a-a:hover {
+    box-shadow: 0px 0px 4px 0px black;
+}
+
+.box-now .tow-a-a:hover {
+    box-shadow: 0px 0px 4px 0px black;
+}
